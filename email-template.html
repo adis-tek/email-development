@@ -17,6 +17,36 @@
     table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
     img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
+    @media (max-width: 480px) {
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    table, tr, td {
+      width: 100%;
+      display: block;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .social-icons {
+      width: 30px;
+    }
+
+    .header-space-mobile {
+      display: none;
+    }
+
+  }
 </style>
 
 </head>
@@ -30,7 +60,7 @@
             <td>
               <table width="800" border="0" cellspacing="0" cellpadding="10">
                 <tr>
-                	<td width="212">
+                	<td class="header-space-mobile" width="212">
                    <!--SKILLSHARE: Place your logo in here-->
                   </td>
                   <td width="137"></td>
@@ -152,11 +182,11 @@
                                    <td width="140" valign="top">
                                      <!--SKILLSHARE: Change any or all of these icons and links-->
 
-                                     <a href="https://dribbble.com/venessabaez"><img border="0" src="images/icon-dribbble.png"></a>
-                                     <a href="http://behance.net/venessabaez"><img border="0" src="images/icon-behance.png"></a>
-                                     <a href="https://twitter.com/venessabaez"><img border="0" src="images/icon-twitter.png"></a>
-                                     <a href="https://www.linkedin.com/in/venessabaez/"><img border="0" src="images/icon-linkedin.png"></a>
-                                     <a href="https://instagram.com/venessabaez"><img border="0" src="images/icon-instagram.png"></a>
+                                     <a href="https://dribbble.com/venessabaez"><img class="social-icons" border="0" src="images/icon-dribbble.png"></a>
+                                     <a href="http://behance.net/venessabaez"><img class="social-icons" border="0" src="images/icon-behance.png"></a>
+                                     <a href="https://twitter.com/venessabaez"><img class="social-icons" border="0" src="images/icon-twitter.png"></a>
+                                     <a href="https://www.linkedin.com/in/venessabaez/"><img class="social-icons" border="0" src="images/icon-linkedin.png"></a>
+                                     <a href="https://instagram.com/venessabaez"><img class="social-icons" border="0" src="images/icon-instagram.png"></a>
                                      
                                    </td>
                                   </tr>
